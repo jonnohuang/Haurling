@@ -1,0 +1,640 @@
+
+@import url(../fonts/font-awesome/font-awesome.min.css);
+@import url(../fonts/flaticon/flaticon.css);
+
+/*========================================================
+                      Main Styles
+=========================================================*/
+
+body {
+	font-family: "微軟正黑體", Arial, Verdana, Helvetica, sans-serif;	
+	font-size: 15px;
+	line-height: 24px;
+	padding-top: 92px;/*有頂部固定導髚條時設置*/
+}
+
+
+/*==================  navbar-fixed  ======================*/
+
+.navbar-fixed {
+	top: 0px;
+	visibility: visible;
+	position: fixed;
+	width: 100%;
+	margin-top: 0px;
+	z-index: 9999;
+	background: url(../../images/navbar_bg.png) repeat-x left bottom;
+	min-height: 92px;
+}
+
+/* ----------------------- navbar-nav ----------------------- */
+
+.navbar-default {
+	background: none;
+	/*border-bottom: 7px solid #ef9fae;*/
+}
+.navbar-header .navbar-brand {
+	background: url(../../../healthcare-plus.com.tw/images/logo.png) no-repeat left center;
+	width: 302px;
+	height: 76px;
+	text-indent: -9999px;
+}
+
+.navbar {
+	border: none;
+	margin-bottom: 0;
+}
+.navbar-nav {
+	float: right;
+	display: none;
+}
+.navbar-nav > li:nth-of-type(-n+1) {
+	display: none;
+}
+.navbar-default .navbar-nav > li > a {
+	display: block;
+	font-size: 16px;
+	padding: 0;
+	color: #000;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #ed6d00;
+	text-shadow: 0px 2px 0px #fff;
+}
+
+
+.navbar-text {
+	float: right;
+	margin: 24px 0 0 10px;
+	padding: 0;
+	display: none;
+	position: relative;
+}
+.navbar-text a {
+	color: #1d428e;
+	padding: 0;
+}
+.navbar-text a:nth-of-type(-n+2) {
+	display: none;
+}
+
+.navbar-text select {
+    padding: 0px 5px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	height: 26px;	
+}
+.navbar-text .input-box {
+	position: relative;
+	display: inline;
+}
+.navbar-text .input-box input {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	height: 26px;
+	padding-left: 30px;
+}
+.navbar-text .input-box i {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	z-index: 9;
+}
+.navbar-text img: {
+	width: 20px;
+	margin: 0 3px;
+}
+.navbar-default .navbar-link {
+    color: #fff;
+}
+.navbar-default .navbar-link:hover {
+    color: #fff;
+}
+
+
+/* -------------------------- banner -------------------------- */
+
+.bxslider1, .bxslider2 {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.banner-l {
+	display: none;
+}
+
+.banner-l, .banner-m {
+	position: relative;
+}
+
+/* -------------------------- scroll -------------------------- */
+
+.scroll-banner {
+	width: 100%;
+	position: absolute;
+	bottom: 20px;
+	z-index: 9;
+	cursor: pointer;
+	}
+.scroll-banner img {
+	display: block;
+	margin: 0 auto;
+}
+
+.scroll-style {
+	text-align: center;
+	margin-top: 20px;
+}
+.scroll-style img {
+	cursor: pointer;
+}
+
+
+/* -------------------------- 產品系列 -------------------------- */
+
+.products-list {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ed6d00+0,f28d37+100 */
+	background: rgb(237,109,0); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(237,109,0,1) 0%, rgba(242,141,55,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(237,109,0,1) 0%,rgba(242,141,55,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(237,109,0,1) 0%,rgba(242,141,55,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed6d00', endColorstr='#f28d37',GradientType=0 ); /* IE6-9 */
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+.products-list h1 {
+	position: relative;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.products-list h1 span {	
+	background-color: #ed6d00;
+    display: inline-block;
+    padding: 0px 50px;
+    position: relative;
+    z-index: 99;
+}
+.products-list h1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    display: inline-block;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    height: 3px;
+    z-index: 10;
+}
+.products-list .container {
+}
+.products-list .slider-box {
+	margin: 0 15px;
+}
+.products-list > div .box {
+	background: #fff;
+	padding: 20px 30px 10px;
+}
+.products-list > div .box:hover {
+	background: #ffe1c8;
+}
+.products-list img {
+	width: 100%;
+	vertical-align: bottom;
+}
+.products-list > div .box h2 {
+	font-size: 22px;
+	margin: 0 0 5px 0;
+/* 	height: 50px; */
+	overflow: hidden;
+	color: #ed6d00;
+}
+.products-list > div .box p {
+	font-size: 15px;
+}
+.products-list .more {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.products-list .more a {
+	color: #ed6d00;
+	border: 1px solid #ed6d00;
+	border-radius: 10px;
+	padding: 5px 30px;
+}
+
+
+
+/* -------------------------- 迦康新訊 -------------------------- */
+
+.news-list {
+	margin-bottom: 20px;
+}
+.news-list h1 {
+	position: relative;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #ed6d00;
+	margin-bottom: 30px;
+}
+.news-list h1 span {	
+	background-color: #fff;
+    display: inline-block;
+    padding: 0px 50px;
+    position: relative;
+    z-index: 99;
+}
+.news-list h1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    display: inline-block;
+    border-bottom: 2px solid #ed6d00;
+    width: 100%;
+    height: 3px;
+    z-index: 10;
+}
+.news-list [class *= col-] {
+	padding: 30px 30px 0px 30px;
+}
+.news-list [class *= col-]:nth-of-type(3) {
+	padding: 10px 30px 50px 30px;
+}
+
+.news-list dt {
+	color: #000;
+	font-size: 26px;
+	margin-bottom: 10px;	
+}
+.news-list dd.info {
+	color: #4d4d4d;
+	font-size: 18px;
+	padding-bottom: 20px;		
+}
+.news-list dd.more {
+	text-align: center;	
+}
+.news-list dd.more a {
+	display: block;
+	padding: 15px 20px;
+	background-color: #f28d36;
+	border-radius: 10px;
+	color: #fff;
+}
+.news-list dd.more a:hover {
+	background-color: #ed6d00;
+}
+
+
+/*========================================================
+                      	 代理項目
+=========================================================*/
+
+.know-list {
+	margin-bottom: 20px;
+}
+.know-list h1 {
+	position: relative;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #ed6d00;
+	margin-bottom: 30px;
+}
+.know-list h1 span {	
+	background-color: #fff;
+    display: inline-block;
+    padding: 0px 50px;
+    position: relative;
+    z-index: 99;
+}
+.know-list h1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    display: inline-block;
+    border-bottom: 2px solid #ed6d00;
+    width: 100%;
+    height: 3px;
+    z-index: 10;
+}
+
+.thumb-pad {
+    margin: 0 0 30px;
+	overflow: hidden;
+	background-color: #fdefe3;
+	padding: 30px;
+}
+
+.thumb-pad dl {
+    position: relative;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+    padding: 0;
+    background: 0 0;
+}
+.thumb-pad dl dt {
+    width: 100%;
+    text-align: left;
+    margin: 0 0 10px 0;
+    padding: 0;
+    float: none;
+    font-size: 48px;
+    color: #ff6764;
+}
+.thumb-pad dl dt img {
+    display: block;
+	margin: 0 auto;
+}
+.thumb-pad dl dt span {
+    display: block;
+	font-size: 32px;
+}
+.thumb-pad dl dd {
+	color: #333;
+	overflow: hidden;
+}
+.thumb-pad dl dd h2 {
+    color: #000;
+    font-size: 24px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+@media (max-width: 480px) {
+	.thumb-pad dl dt {
+		float: none;
+		margin: 0 0 10px;
+		height: 81px;
+	}
+}
+
+.thumb-pad a {
+	display: inline-block;
+	padding: 5px 20px;
+	background-color: #f28d36;
+	border-radius: 10px;
+	color: #fff;
+}
+.thumb-pad a:hover {
+	background-color: #ed6d00;
+}
+
+
+
+/* -------------------------- footer -------------------------- */
+
+.footer-list {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f28b34+0,ed6d00+100 */
+	background: rgb(242,139,52); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(242,139,52,1) 0%, rgba(237,109,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(242,139,52,1) 0%,rgba(237,109,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(242,139,52,1) 0%,rgba(237,109,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f28b34', endColorstr='#ed6d00',GradientType=0 ); /* IE6-9 */
+	text-align: left;
+/*	padding-top: 20px;*/
+	color: #fff;
+}
+.footer-list [class *= col-]{
+/*	margin-bottom: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 10px 10px 20px 10px;*/
+}
+.footer-list [class *= col-]:first-of-type {
+	margin-top: 20px;
+}
+.footer-list [class *= col-]:last-of-type {
+	margin-bottom: 20px;
+}
+.footer-list [class *= col-] ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.footer-list address {
+	margin-bottom: 0;
+}
+
+
+.address_map {
+	text-align: center;
+	padding: 20px 0;
+}
+.address_map a {
+	font-size: 15px;
+	color: #000;
+	margin: 0 10px;
+	padding: 7px 12px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.address_map a span {
+	margin: 0 2% 0 0;
+}
+.address_map a:hover {
+	background-color: #b26524;
+	border: 1px solid #b26524;
+	text-decoration: none;
+	color: #fff;
+}
+.address_map .btn-pink {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #ed6d00;
+}
+
+.footer-list .link a {
+	color: #fff;
+}
+.footer-list .link h4 {
+	display: inline-block;
+	font-size: 16px;
+	margin: 0;
+}
+
+/*首頁隠藏式相關連結*/
+#floatDivBoxs {
+    width: 170px;
+    background: #fff;
+    position: fixed;
+    bottom: 50px;
+    right: -170px;
+    z-index: 999;
+}
+.floatDivTitle {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    background: #e83543;
+    color: #fff;
+    font-size: 18px;
+    text-indent: 22px;
+    position: relative;
+}
+.floatShadow {
+    background: #fff;
+    padding: 10px;
+}
+.floatShadow img {
+    width: 150px;
+    margin: 10px 0;
+}
+#rightArrow {
+    width: 35px;
+    height: 120px;
+    background: url(../../images/online_arrow1.jpg) no-repeat;
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    z-index: 9999;
+}
+#rightArrow a {
+    display: block;
+    height: 32px;
+}
+
+
+
+/* --------------------- xs尺寸設定 大於640 --------------------- */
+
+@media (min-width: 640px) {
+	
+.products-list h1, .news-list h1 {
+	font-size: 36px;
+}
+
+}
+
+/* --------------------- sm尺寸設定 大於768 --------------------- */
+
+@media (min-width: 768px) {
+	
+body {
+	padding-top: 92px;/*有頂部固定導髚條時設置*/
+}
+
+
+.banner-l {
+	display: block;
+}
+.banner-m {
+	display: none;
+}
+
+.products-list h1, .news-list h1, .know-list h1 {
+	font-size: 36px;
+}
+
+
+.news-list [class *= col-] {
+	border-right: 1px solid #f28c36;
+	padding: 10px 30px;
+}
+.news-list [class *= col-]:nth-of-type(3) {
+	padding: 10px 30px;
+}
+.news-list [class *= col-]:last-of-type {
+	border-right: none;
+}
+
+/* footer */
+.footer-list {
+	text-align: center;
+}
+.footer-list [class *=col-] ul > li:nth-of-type(2) {
+	display: inline;
+	margin-right: 15px;
+}
+.footer-list [class *=col-] ul > li:nth-of-type(3) {
+	display: inline;
+	margin-right: 15px;
+}
+.address_map {
+	display: none;
+}
+
+
+	
+}
+
+/* --------------------- md尺寸設定 大於992 --------------------- */
+
+@media (min-width: 992px) {
+	
+.navbar-header .navbar-brand {
+	background: url(../../../healthcare-plus.com.tw/images/logo.png) no-repeat left center;
+	width: 302px;
+}
+.navbar-nav {
+	display: block;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size: 16px;
+	padding: 26px 6px;
+}
+.navbar-text {
+	display: block;
+}	
+
+.products-list h1, .news-list h1, .know-list h1 {
+	font-size: 40px;
+}
+
+.footer-list {
+	font-size: 16px;
+}
+
+}
+
+/* --------------------- lg尺寸設定 大於1200 -------------------- */
+
+@media (min-width: 1200px) {
+	
+.navbar-default .navbar-nav > li > a {
+	font-size: 20px;
+	padding: 26px 12px;
+}	
+	
+.products-list h1, .news-list h1, .know-list h1 {
+	font-size: 44px;
+}
+.footer-list [class *=col-] ul > li {
+	display: inline;
+	margin-right: 15px;
+}
+	
+}
+
+
+/* --------------------- bg尺寸設定 大於1600 -------------------- */
+
+@media (min-width: 1600px) {
+	
+.products-list {
+	background: url(../../images/products_back.jpg) no-repeat center top;
+	background-size: 100% 100%;
+}	
+	
+}

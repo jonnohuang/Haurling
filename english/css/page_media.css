@@ -1,0 +1,246 @@
+
+
+/* --------------------- xs尺寸設定 大於640 --------------------- */
+
+@media (min-width: 480px) {
+
+
+}
+
+/* --------------------- xs尺寸設定 大於640 --------------------- */
+
+@media (min-width: 640px) {
+	
+
+}
+
+/* --------------------- sm尺寸設定 大於768 --------------------- */
+
+@media (min-width: 768px) {
+
+body {
+	padding-top: 76px;/*有頂部固定導髚條時設置*/
+}
+
+.navbar-header .navbar-brand {
+	background: url(../../images/logo_2.png) no-repeat left center;
+	width: 210px;
+}
+	
+.banner-l {
+	display: block;
+}
+.banner-m {
+	display: none;
+}
+
+
+.h1-title .col-sm-4 {
+	display: block;
+	}
+	
+
+
+/* 產品介紹 */
+.products-pdf {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+/* 訊息公告 */
+.news-box {
+	position: relative;
+	padding-left: 120px;
+	background: url(../images/news_02_line.png) no-repeat 120px 0;
+	margin-top: 20px;
+}
+.news-time {
+	position: absolute;
+	left: -120px;
+	top: -12px;
+	z-index: 9;
+	text-align: center;
+	width: 120px;
+	background-color: #f6b884;
+	position: relative;
+	margin-right: 1%;
+}
+.news-time:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -24px;
+    top: 0px;
+	width:0px;
+	height:0px;
+	border-width: 12px;
+	border-style:solid;
+	border-color: transparent transparent transparent #f6b884;
+}
+.news-img {
+	margin: -30px 0 50px 0;
+	width: 100%;
+	padding-left: 86px;
+}
+.news-info {
+	margin: -30px 0 50px 0;
+	width: 100%;
+	padding-left: 86px;
+}
+
+
+/* 搜尋 */
+.search-form .col-sm-4:nth-of-type(1) {
+	padding-left: 0;
+	padding-right: 15px;
+}
+.search-form .col-sm-4:nth-of-type(2) {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.search-form .col-sm-4:nth-of-type(3) {
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+.search-form .form-group {
+   margin: 0 0 10px 0;
+}
+.search-form .control-label span {
+	color: #C00;
+	font-weight: bold;
+	/*margin-right: 3px;*/
+	}	
+.search-form [class *= col-] {
+/*	padding-right: 0;
+    padding-left: 2px;*/
+}
+
+.search-form .control-label {
+/*    padding-top: 3px;
+	padding-bottom: 4px;
+	background-color: #f6f6e5;*/
+}
+
+
+/* 聯絡我們 */
+.contact-form .control-label {
+    padding-top: 3px;
+	padding-bottom: 4px;
+	background-color: #f6f6e5;
+}
+.contact-form [class *= col-] {
+    padding-left: 0;
+}
+.contact-form [class *= col-] i {
+    left: 0;
+}
+
+/* 意見表單 */
+.form-horizontal .form-group {
+    margin-right: 0;
+    margin-left: 0;
+}
+.form-horizontal .control-label {
+	border-width: 0px 5px 0px 0px;
+	border-style: solid;
+	border-color: #0c5381;
+	padding: 0 10px;
+	margin: 5px 0 0 0;
+}
+
+/* footer */
+.footer-list {
+	text-align: center;
+}
+.footer-list [class *=col-] ul > li:nth-of-type(2) {
+	display: inline;
+	margin-right: 15px;
+}
+.footer-list [class *=col-] ul > li:nth-of-type(3) {
+	display: inline;
+	margin-right: 15px;
+}
+.address_map {
+	display: none;
+}
+
+}
+
+
+/* --------------------- md尺寸設定 大於992 --------------------- */
+
+@media (min-width: 992px) {
+	
+.navbar-header .navbar-brand {
+	background: url(../../../healthcare-plus.com.tw/images/logo.png) no-repeat left center;
+	width: 302px;
+}
+
+.navbar-nav {
+	display: block;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size: 13px;
+	padding: 26px 6px;
+}
+.navbar-text {
+	display: block;
+}
+
+.about-date li {
+	width: 49%;
+}
+
+
+/* 訊息公告 */
+.news-img {
+	display: -moz-inline-stack;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+	margin: -30px 0 50px 0;
+	width: 40%;
+	padding-left: 86px;
+}
+.news-info {
+	display: -moz-inline-stack;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+	margin: -30px 0 50px 0;
+	width: 57%;
+	padding-left: 20px;
+}
+
+.news-content img {
+	float: left;
+	max-width: 40%;
+	margin: 4px 20px 20px 0;
+	}
+
+
+/* footer */
+.footer-list {
+	font-size: 16px;
+}
+}
+
+/* --------------------- lg尺寸設定 大於1200 -------------------- */
+
+@media (min-width: 1200px) {
+	
+.navbar-default .navbar-nav > li > a {
+	font-size: 17px;
+	padding: 26px 10px;
+}		
+.footer-list [class *=col-] ul > li {
+	display: inline;
+	margin-right: 15px;
+}
+
+
+}
+
