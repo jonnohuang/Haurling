@@ -59,7 +59,7 @@ body {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #ed6d00;
+	color: #17ac28;
 	text-shadow: 0px 2px 0px #fff;
 }
 .navbar-text {
@@ -163,12 +163,12 @@ body {
 /* -------------------------- 產品系列 -------------------------- */
 
 .products-list {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ed6d00+0,f28d37+100 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#17ac28+0,f28d37+100 */
 	background: rgb(237,109,0); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(237,109,0,1) 0%, rgba(242,141,55,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top,  rgba(237,109,0,1) 0%,rgba(242,141,55,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  rgba(237,109,0,1) 0%,rgba(242,141,55,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed6d00', endColorstr='#f28d37',GradientType=0 ); /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17ac28', endColorstr='#f28d37',GradientType=0 ); /* IE6-9 */
 	padding-bottom: 30px;
 	margin-bottom: 20px;
 }
@@ -181,7 +181,7 @@ body {
 	margin-bottom: 30px;
 }
 .products-list h1 span {	
-	background-color: #ed6d00;
+	background-color: #17ac28;
     display: inline-block;
     padding: 0px 50px;
     position: relative;
@@ -219,7 +219,7 @@ body {
 	margin: 0 0 5px 0;
 	height: 50px;
 	overflow: hidden;
-	color: #ed6d00;
+	color: #17ac28;
 }
 .products-list > div .box p {
 	font-size: 15px;
@@ -230,15 +230,15 @@ body {
 	margin-bottom: 20px;
 }
 .products-list .more a {
-	color: #ed6d00;
-	border: 1px solid #ed6d00;
+	color: #17ac28;
+	border: 1px solid #17ac28;
 	border-radius: 10px;
 	padding: 5px 30px;
 }
 
 
 
-/* -------------------------- 迦康新訊 -------------------------- */
+/* -------------------------- 豪麟新訊 -------------------------- */
 
 .news-list {
 	margin-bottom: 20px;
@@ -248,7 +248,7 @@ body {
 	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
-	color: #ed6d00;
+	color: #17ac28;
 	margin-bottom: 30px;
 }
 .news-list h1 span {	
@@ -264,7 +264,7 @@ body {
     left: 0;
     top: 20px;
     display: inline-block;
-    border-bottom: 2px solid #ed6d00;
+    border-bottom: 2px solid #17ac28;
     width: 100%;
     height: 3px;
     z-index: 10;
@@ -297,7 +297,7 @@ body {
 	color: #fff;
 }
 .news-list dd.more a:hover {
-	background-color: #ed6d00;
+	background-color: #17ac28;
 }
 
 
@@ -313,7 +313,7 @@ body {
 	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
-	color: #ed6d00;
+	color: #17ac28;
 	margin-bottom: 30px;
 }
 .know-list h1 span {	
@@ -329,7 +329,7 @@ body {
     left: 0;
     top: 50%;
     display: inline-block;
-    border-bottom: 2px solid #ed6d00;
+    border-bottom: 2px solid #17ac28;
     width: 100%;
     height: 3px;
     z-index: 10;
@@ -396,19 +396,19 @@ body {
 	color: #fff;
 }
 .thumb-pad a:hover {
-	background-color: #ed6d00;
+	background-color: #17ac28;
 }
 
 
 /* -------------------------- footer -------------------------- */
 
 .footer-list {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f28b34+0,ed6d00+100 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f28b34+0,17ac28+100 */
 	background: rgb(242,139,52); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(242,139,52,1) 0%, rgba(237,109,0,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top,  rgba(242,139,52,1) 0%,rgba(237,109,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  rgba(242,139,52,1) 0%,rgba(237,109,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f28b34', endColorstr='#ed6d00',GradientType=0 ); /* IE6-9 */	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f28b34', endColorstr='#17ac28',GradientType=0 ); /* IE6-9 */	
 	text-align: left;
 /*	padding-top: 20px;*/
 	color: #fff;
@@ -464,7 +464,7 @@ body {
 .address_map .btn-pink {
 	background-color: #fff;
 	border: 1px solid #fff;
-	color: #ed6d00;
+	color: #17ac28;
 }
 
 
