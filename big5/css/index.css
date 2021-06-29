@@ -23,7 +23,7 @@ body {
 	width: 100%;
 	margin-top: 0px;
 	z-index: 9999;
-	background: url(../../images/navbar_bg.png) repeat-x left bottom;
+	background: url(../../images-hl/hl_navbar_bg.png) repeat-x left bottom;
 	min-height: 92px;
 }
 
@@ -34,8 +34,9 @@ body {
 	/*border-bottom: 7px solid #ef9fae;*/
 }
 .navbar-header .navbar-brand {
-	background: url(../images/logo.png) no-repeat left center;
+	background: url(../../images-hl/logo.jpg) no-repeat left center;
 	width: 302px;
+	/* height: 76px; */
 	height: 76px;
 	text-indent: -9999px;
 }
@@ -584,7 +585,7 @@ body {
 @media (min-width: 992px) {
 	
 .navbar-header .navbar-brand {
-	background: url(../../images/logo.png) no-repeat left center;
+	background: url(../../images-hl/logo.jpg) no-repeat left center;
 	width: 302px;
 }
 .navbar-nav {
