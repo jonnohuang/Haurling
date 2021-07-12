@@ -783,7 +783,7 @@ ul.style1 li ul li ul li:first-letter {
 .news-img img {
 	width: 100%;
 	visibility: bottom;
-	border: 5px solid #f28931;
+	border: 5px solid #17ac28;
 }
 .news-info {
 	margin: 10px 0 30px;
@@ -849,7 +849,7 @@ ul.style1 li ul li ul li:first-letter {
 	text-align: right;
 }
 .more a, .back_news a {
-	background-color: #f28931;
+	background-color: #17ac28;
 	padding: 5px 20px 7px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -920,12 +920,12 @@ ul.style1 li ul li ul li:first-letter {
 /* -------------------------- footer -------------------------- */
 
 .footer-list {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f28b34+0,17ac28+100 */
-	background: rgb(242,139,52); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(242,139,52,1) 0%, rgba(23,172.40,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(242,139,52,1) 0%,rgba(23,172.40,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  rgba(242,139,52,1) 0%,rgba(23,172.40,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f28b34', endColorstr='#17ac28',GradientType=0 ); /* IE6-9 */	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#17ac28+0,17ac28+100 */
+	background: #17ac28; /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(23,172.40,1) 0%, rgba(23,172.40,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(23,172.40,1) 0%,rgba(23,172.40,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(23,172.40,1) 0%,rgba(23,172.40,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17ac28', endColorstr='#17ac28',GradientType=0 ); /* IE6-9 */	
 	text-align: left;
 /*	padding-top: 20px;*/
 	color: #fff;

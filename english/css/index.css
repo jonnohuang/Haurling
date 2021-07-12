@@ -208,7 +208,8 @@ body {
 	padding: 20px 30px 10px;
 }
 .products-list > div .box:hover {
-	background: #ffe1c8;
+	/* background: #ffe1c8; */
+	background: #e2efda;
 }
 .products-list img {
 	width: 100%;
@@ -292,7 +293,7 @@ body {
 .news-list dd.more a {
 	display: block;
 	padding: 15px 20px;
-	background-color: #f28d36;
+	background-color: #17ac28;
 	border-radius: 10px;
 	color: #fff;
 }
@@ -338,7 +339,7 @@ body {
 .thumb-pad {
     margin: 0 0 30px;
 	overflow: hidden;
-	background-color: #fdefe3;
+	background-color: #e2efda;
 	padding: 30px;
 }
 
@@ -391,7 +392,7 @@ body {
 .thumb-pad a {
 	display: inline-block;
 	padding: 5px 20px;
-	background-color: #f28d36;
+	background-color: #17ac28;
 	border-radius: 10px;
 	color: #fff;
 }
@@ -403,12 +404,12 @@ body {
 /* -------------------------- footer -------------------------- */
 
 .footer-list {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f28b34+0,17ac28+100 */
-	background: rgb(242,139,52); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(242,139,52,1) 0%, rgba(23,172.40,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(242,139,52,1) 0%,rgba(23,172.40,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  rgba(242,139,52,1) 0%,rgba(23,172.40,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f28b34', endColorstr='#17ac28',GradientType=0 ); /* IE6-9 */	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#17ac28+0,17ac28+100 */
+	background: #17ac28; /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(23,172.40,1) 0%, rgba(23,172.40,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(23,172.40,1) 0%,rgba(23,172.40,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(23,172.40,1) 0%,rgba(23,172.40,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17ac28', endColorstr='#17ac28',GradientType=0 ); /* IE6-9 */	
 	text-align: left;
 /*	padding-top: 20px;*/
 	color: #fff;
@@ -505,7 +506,7 @@ body {
 
 
 .news-list [class *= col-] {
-	border-right: 1px solid #f28c36;
+	border-right: 1px solid #17ac28;
 	padding: 10px 30px;
 }
 .news-list [class *= col-]:nth-of-type(3) {
@@ -587,11 +588,11 @@ body {
 
 /* --------------------- bg尺寸設定 大於1600 -------------------- */
 
-@media (min-width: 1600px) {
+/* @media (min-width: 1600px) {
 	
 .products-list {
 	background: url(../../images/products_back.jpg) no-repeat center top;
 	background-size: 100% 100%;
 }	
 	
-}
+} */
